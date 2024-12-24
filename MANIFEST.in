@@ -1,0 +1,2 @@
+include Build_Python_To_exe_for_Clung/python_files/*.py
+recursive-include Build_Python_To_exe_for_Clung/Web *

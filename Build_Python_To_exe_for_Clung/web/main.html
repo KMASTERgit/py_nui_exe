@@ -1,0 +1,84 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Build Python To exe for Clung</title>
+
+    <!-- Include eel.js -->
+    <script type="text/javascript" src="/eel.js"></script>
+</head>
+
+<body>
+  <h5>Build Python To exe for Clung</h5>
+  <div id="app" class="container mt-5">
+
+    <div class="file-input-container mb-4">
+      <input type="text" class="form-control" v-model="fileName" readonly>
+      <button class="btn btn-primary" @click="triggerFileDialog">Pythonファイル選択</button>
+    </div>
+
+    <div class="file-input-container mb-4">
+      <input type="text" class="form-control" v-model="icoFileName" readonly>
+      <button class="btn btn-primary" @click="triggerIcoFileDialog">ICOファイル選択</button>
+    </div>
+
+    <div class="mb-4">
+      <div class="apple-toggle-container">
+        <label class="apple-toggle">
+          <input type="checkbox" v-model="toggle1">
+          <span class="slider"></span>
+          <span class="label">onefile</span>
+        </label>
+      </div>
+      <div class="apple-toggle-container">
+        <label class="apple-toggle">
+          <input type="checkbox" v-model="toggle2">
+          <span class="slider"></span>
+          <span class="label">standalone</span>
+        </label>
+      </div>
+      <div class="apple-toggle-container">
+        <label class="apple-toggle">
+          <input type="checkbox" v-model="toggle3">
+          <span class="slider"></span>
+          <span class="label">windows-console-mode</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="mb-4">
+      <p>オプションライブラリ設定</p>
+      <div class="checkbox-list">
+        <label v-for="(itemName, index) in checkboxItems" :key="index">
+          <input type="checkbox" :value="index" v-model="selectedCheckboxes">
+          {{ itemName }}
+        </label>
+      </div>
+    </div>
+
+    <div class="mb-4">
+      <p>コマンド生成内容</p>
+      <textarea class="form-control new-textarea" v-model="newTextAreaContent" readonly></textarea>
+    </div>
+
+    <div class="text-center mt-4">
+      <button class="btn btn-success" @click="plonpt">プロンプトへ送信</button>
+    </div>
+
+    <p>プロンプト状態</p>
+    <textarea class="form-control multiline-textarea" v-model="textAreaContent" readonly></textarea>
+
+
+  </div>
+
+  </body>
+  <script src="./js/vue3.global.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/jquery-3.6.3.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./js/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- External JS -->
+  <script src="./js/component/app.js"></script>
+</html>
