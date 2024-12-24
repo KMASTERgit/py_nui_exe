@@ -5,6 +5,11 @@ A tool to assist in generating Nuitka commands, one of the Python build librarie
 Users can generate commands by setting and selecting necessary settings on the GUI. 
 The command content is sent to the prompt and executed up to Nuitka.
 
+Archived  
+My Repsitory(https://github.com/KMASTERgit/Build_Python_To_exe_for_Clung)  
+That repository can not pip install.
+So rebaked that pip install can be done.
+
 ## Caution
 Self development and may contain defects. Please be aware of this.
 
@@ -38,6 +43,10 @@ MIT License
 Pythonのビルドライブラリの1つであるNuitkaのコマンド生成を補助するツールです。
 GUI上で必要な設定・選択を行い、コマンドを生成できます。
 生成されたコマンドはプロンプトに送信され、Nuitkaが実行されます。
+
+別リポジトリ(https://github.com/KMASTERgit/Build_Python_To_exe_for_Clung)を  
+pipでインストールできるようにしたversionです。
+
 
 ## 注意
 個人開発のため、不具合が含まれる可能性があります。ご了承ください。
