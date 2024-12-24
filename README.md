@@ -1,4 +1,4 @@
-# Build Python To exe for Clung
+# py_nui_exe
 
 ## Overview
 A tool to assist in generating Nuitka commands, one of the Python build libraries. 
@@ -15,8 +15,11 @@ Unofficial app！！
 ## Installation
 1. Install Nuitka according to the official documentation.
    Reference: [WebSite](https://nuitka.net/user-documentation/user-manual.html)  or  [Github](https://github.com/Nuitka/Nuitka?tab=readme-ov-file)
-2. Clone this repository.
-3. Select the Python file to be converted to exe and select the necessary commands, then execute Nuitka by clicking "Send to prompt".
+2. For Command
+>pip install git+https://github.com/KMASTERgit/py_nui_exe.git
+3. For Command
+>py-nui-exe
+4. Wake up py-nui-exe → select the Python file to be converted to exe and select the necessary commands, then execute Nuitka by clicking "Send to prompt".
 
 ## Usage
 Please refer to the attached video.
@@ -29,7 +32,7 @@ MIT License
 
 =======JAPANESE===========
 
-# Build Python To exe for Clung
+# py_nui_exe
 
 ## 概要
 Pythonのビルドライブラリの1つであるNuitkaのコマンド生成を補助するツールです。
@@ -45,8 +48,11 @@ GUI上で必要な設定・選択を行い、コマンドを生成できます�
 ## インストール
 1. Nuitkaを公式ドキュメントに従いインストールしてください。
   参考: [WebSite](https://nuitka.net/user-documentation/user-manual.html)  or  [Github](https://github.com/Nuitka/Nuitka?tab=readme-ov-file)
-2. このリポジトリをCloneしてください。
-3. exe化したいPythonファイルを選択し、必要なコマンドを選択後、"プロンプト送信"をクリックするとNuitkaが実行されます。
+2. コマンドプロンプトで
+>pip install git+https://github.com/KMASTERgit/py_nui_exe.git
+3. コマンドプロンプトで
+>py-nui-exe
+3. アプリが起動するので、exe化したいPythonファイルを選択し、必要なコマンドを選択後、"プロンプト送信"をクリックするとNuitkaが実行されます。
 
 ## 使い方
 添付動画をご覧ください。
