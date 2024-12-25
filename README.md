@@ -39,6 +39,12 @@ Feel free to contribute as long as you don't include malicious files such as vir
 ## License
 MIT License
 
+## Credit
+eel
+VueJS
+BootStrap
+
+
 =======JAPANESE===========
 
 # py_nui_exe
