@@ -21,8 +21,10 @@ Unofficial app！！
 1. Install Nuitka according to the official documentation.
    Reference: [WebSite](https://nuitka.net/user-documentation/user-manual.html)  or  [Github](https://github.com/Nuitka/Nuitka?tab=readme-ov-file)
 2. For Command
->pip install py_nui_exe
+>pip install py_nui_exe  
+
 or
+
 >pip install git+https://github.com/KMASTERgit/py_nui_exe.git
 3. For Command
 >py-nui-exe
@@ -61,7 +63,11 @@ pipでインストールできるようにしたversionです。
   参考: [WebSite](https://nuitka.net/user-documentation/user-manual.html)  or  [Github](https://github.com/Nuitka/Nuitka?tab=readme-ov-file)
 2. コマンドプロンプトで
 >pip install py_nui_exe
+
+
 (下記は玄人向け)
+
+
 >pip install git+https://github.com/KMASTERgit/py_nui_exe.git
 3. コマンドプロンプトで
 >py-nui-exe
