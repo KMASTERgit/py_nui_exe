@@ -54,8 +54,8 @@ Pythonのビルドライブラリの1つであるNuitkaのコマンド生成を�
 GUI上で必要な設定・選択を行い、コマンドを生成できます。
 生成されたコマンドはプロンプトに送信され、Nuitkaが実行されます。
 
-別リポジトリ(https://github.com/KMASTERgit/Build_Python_To_exe_for_Clung)を  
-pipでインストールできるようにしたversionです。
+別リポジトリ(https://github.com/KMASTERgit/Build_Python_To_exe_for_Clung)
+をpipでインストールできるようにしたversionです。
 
 
 ## 注意
@@ -81,6 +81,7 @@ pipでインストールできるようにしたversionです。
 
 ## 使い方
 添付動画をご覧ください。
+https://github.com/KMASTERgit/py_nui_exe/blob/main/usingcapture.mp4
 
 ## 貢献
 ウイルスなどの悪意のあるファイルを含まない限り、自由に貢献してください。
